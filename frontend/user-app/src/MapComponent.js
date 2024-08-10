@@ -17,7 +17,7 @@ const MapComponent = () => {
     }, [socket]);
 
     return (
-        <LoadScript googleMapsApiKey="YOUR_GOOGLE_MAPS_API_KEY">
+        <LoadScript googleMapsApiKey="AIzaSyB8A3GQxkkTbhvfWOw-xptqG77UNoPy1gA">
             <GoogleMap
                 mapContainerStyle={{ height: "400px", width: "800px" }}
                 center={{ lat: locations[0]?.latitude || 0, lng: locations[0]?.longitude || 0 }}
